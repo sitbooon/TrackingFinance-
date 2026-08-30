@@ -1,0 +1,1 @@
+import{n as e,q as t}from"./button-BnM9GMaj.js";var n=t();function r({className:t,tone:r=`muted`,...i}){return(0,n.jsx)(`span`,{className:e(`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium`,{muted:`bg-surface-2 text-muted`,income:`bg-income/10 text-income`,danger:`bg-danger/10 text-danger`,accent:`bg-accent/10 text-accent`}[r],t),...i})}export{r as t};
