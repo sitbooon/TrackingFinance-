@@ -1,7 +1,11 @@
 {
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "node_modules/tslib/**"
+    }
+  },
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
   "rewrites": [
     {
       "source": "/(.*)",
